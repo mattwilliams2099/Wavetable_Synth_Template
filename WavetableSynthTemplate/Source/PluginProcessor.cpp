@@ -93,8 +93,7 @@ void WavetableSynthTemplateAudioProcessor::changeProgramName (int index, const j
 //==============================================================================
 void WavetableSynthTemplateAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
-    // Use this method as the place to do any pre-playback
-    // initialisation that you need..
+    wavetableSynth.prepareToPlay(sampleRate);
 }
 
 void WavetableSynthTemplateAudioProcessor::releaseResources()
@@ -132,6 +131,10 @@ bool WavetableSynthTemplateAudioProcessor::isBusesLayoutSupported (const BusesLa
 void WavetableSynthTemplateAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
 {
     juce::ScopedNoDenormals noDenormals;
+    buffer.clear();
+    wavetableSynth.processBlock(buffer, midiMessages);
+
+    /*
     auto totalNumInputChannels  = getTotalNumInputChannels();
     auto totalNumOutputChannels = getTotalNumOutputChannels();
 
@@ -156,6 +159,7 @@ void WavetableSynthTemplateAudioProcessor::processBlock (juce::AudioBuffer<float
 
         // ..do something to the data...
     }
+    */
 }
 
 //==============================================================================

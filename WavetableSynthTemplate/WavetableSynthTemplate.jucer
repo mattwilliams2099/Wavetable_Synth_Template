@@ -15,6 +15,8 @@
       <FILE id="uQyFE1" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
       <FILE id="WtZZya" name="Wavetable.cpp" compile="1" resource="0" file="Source/Wavetable.cpp"/>
       <FILE id="aoSf2O" name="Wavetable.h" compile="0" resource="0" file="Source/Wavetable.h"/>
+      <FILE id="PLmz62" name="Oscillator.cpp" compile="1" resource="0" file="Source/Oscillator.cpp"/>
+      <FILE id="UfRiTz" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
     </GROUP>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
