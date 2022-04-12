@@ -17,6 +17,8 @@
       <FILE id="aoSf2O" name="Wavetable.h" compile="0" resource="0" file="Source/Wavetable.h"/>
       <FILE id="PLmz62" name="Oscillator.cpp" compile="1" resource="0" file="Source/Oscillator.cpp"/>
       <FILE id="UfRiTz" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
+      <FILE id="aq13tC" name="ADSR.cpp" compile="1" resource="0" file="Source/ADSR.cpp"/>
+      <FILE id="KfIb1g" name="ADSR.h" compile="0" resource="0" file="Source/ADSR.h"/>
     </GROUP>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
